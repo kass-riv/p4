@@ -8,7 +8,7 @@ namespace p4.Models{
 
 
 [Table("t_file")]
-    public class Contacto{
+    public class file{
 
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     [Column("id")]
@@ -21,7 +21,6 @@ namespace p4.Models{
     
     
     [Required(ErrorMessage = "Please enter Image Name")]
-
     
     public String ImagenName { get; set; }
 
